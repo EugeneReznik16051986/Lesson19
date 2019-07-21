@@ -3,15 +3,15 @@
 let a;
 function IsNumberInRange(a) {
     a = 20;
-    return (a > 0, a < 10) ? true : false;
+    return (a > 0 && a < 10) ? true : false;
   }
-  console.log(IsNumberInRange(a));
+  console.log( IsNumberInRange(a) );
 
   // № 2
   function IsEven(b) {
     return (b % 2 == 0) ? true : false;
   }
-  console.log(IsEven(4));
+  console.log( IsEven(4) );
 
   // № 3
   let value = +prompt('value?', '');
@@ -40,5 +40,5 @@ function IsNumberInRange(a) {
       return b;
     }
   }
-console.log(min(5,-1));
-console.log(min(3,5));
+console.log( min(5,-1) );
+console.log( min(3,5) );
